@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* Bulma variables */
+$primary: #f23e19;
+$footer-padding: 6rem 1.5rem 1rem;
+$carousel-title-size: 3rem;
+$carousel-title-background: rgba(#fff, 0);
+
+/* Bulma imports */
+@import "~bulma/bulma";
+@import "~bulma-carousel/dist/css/bulma-carousel";
+@import "~bulma-timeline";
+@import "~bulma-accordion/dist/css/bulma-accordion";
+@import "~bulma-tooltip";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* sticky header fix */
+.wrapper.has-navbar-fixed-top, #content {
+  padding-top: 3.25rem;
+}
+
+/* footer padding fix --remove */
+.footer {
+  padding: 6rem 1.5rem 1rem !important;
+}
+
+/*
+** Nuxt page transitions
+*/
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
+
+.page-enter { transform: translateX(-100%) }
+.page-enter-to { transform: translateX(0) }
+
+.page-leave { transform: translateX(0) }
+.page-leave-to { transform: translateX(-100%) }
+
+.page-enter-active,
+.page-leave-active { transition: all 650ms ease-in-out }
+
+/*
+** Transitions
+*/
+.fade-enter-active,
+.fade-leave-active { transition: opacity 0.25s ease-out }
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.drop-in-enter-active {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.drop-in-enter {
+  transform: translateY(-100%);
+}
+
+/*
+** Bulma hero
+*/
+.hero-cover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*
+** Bulma cards
+*/
+.card .title,
+.card .tags {
+  padding: 0.75rem;
+  position: absolute;
+}
+
+.card .title {
+  bottom: 0;
+  color: #fff;
+  z-index: 2;
+}
+
+.card .tags {
+  top: 0;
+}
+
+.excerpt {
+  height: 3em;
+  overflow: hidden;
+}
+
+/*
+** Bulma accordion
+*/
+.accordion-header {
+  background-color: $primary !important;
+}
+
+.accordion-body {
+  transition: all 1s ease-in !important;
+}
+
+/*
+** Social media list
+*/
+
+.social-media {
+  list-style: none !important;
+  margin: 0 !important;
+}
+
+.social-media > li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.icon-linkedin:hover {
+  color: #0077b5;
+}
+
+.icon-twitter:hover {
+  color: #38a1f3;
+}
+
+.icon-medium:hover {
+  color: #00ab6c;
+}

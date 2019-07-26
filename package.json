@@ -1,0 +1,43 @@
+{
+  "name": "systemweb-twentynineteen",
+  "version": "1.0.0",
+  "description": "English language website overhaul for 2019 release",
+  "author": "Tom Grant",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/bulma": "^1.2.0",
+    "@nuxtjs/moment": "^1.1.0",
+    "@nuxtjs/pwa": "^2.6.0",
+    "bulma": "^0.7.2",
+    "bulma-accordion": "^2.0.1",
+    "bulma-carousel": "^3.0.0",
+    "bulma-timeline": "^3.0.0",
+    "bulma-tooltip": "^2.0.2",
+    "cross-env": "^5.2.0",
+    "font-awesome": "^4.7.0",
+    "lodash.throttle": "^4.1.1",
+    "moment": "^2.24.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.11.0",
+    "prettier": "1.14.3",
+    "sass-loader": "^7.1.0"
+  }
+}
