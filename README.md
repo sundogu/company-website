@@ -1,4 +1,4 @@
-# company website refresh
+# Company website refresh
 
 > A new website implementation to replace the old company website
 
@@ -20,3 +20,6 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+
+## Website Screenshots
