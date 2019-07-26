@@ -23,3 +23,19 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 
 ## Website Screenshots
+### Home page
+![home page](https://github.com/sundogu/company-website/blob/master/demo/homepage.png)
+
+### Products page
+![product page](https://github.com/sundogu/company-website/blob/master/demo/products.png)
+
+### Contact Us
+![contact us1](https://github.com/sundogu/company-website/blob/master/demo/contactus1.png)
+![contact us2](https://github.com/sundogu/company-website/blob/master/demo/contactus2.png)
+
+### Search page
+![search page](https://github.com/sundogu/company-website/blob/master/demo/search.png)
+
+
+## Website backend
+[powerpoint demo](https://github.com/sundogu/company-website/blob/master/demo/systemweb%20website%202019.pptx)
