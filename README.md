@@ -1,6 +1,6 @@
-# systemweb-twentynineteen
+# company website refresh
 
-> English language website overhaul for 2019 release
+> A new website implementation to replace the old company website
 
 ## Build Setup
 
